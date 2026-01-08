@@ -1,0 +1,297 @@
+version: "3.1"
+
+stories:
+  - story: init
+    steps:
+      - intent: init
+      - action: utter_init
+ 
+  - story: mental_health
+    steps:
+      - intent: mental_health
+      - action: utter_mental_health
+
+  - story: overcoming_mental_health
+    steps:
+      - intent: overcoming_mental_health
+      - action: utter_overcoming_mental_health
+  
+  - story: frustrating
+    steps:
+      - intent: frustrating
+      - action: utter_frustrating
+  
+  - story: overcoming_frustrating
+    steps:
+      - intent: overcoming_frustrating
+      - action: utter_overcoming_frustrating
+
+  - story: sadness
+    steps:
+      - intent: sadness
+      - action: utter_sadness
+
+  - story: overcoming_sadness
+    steps:
+      - intent: overcoming_sadness
+      - action: utter_overcoming_sadness
+  
+  - story: depression
+    steps:
+      - intent: depression
+      - action: utter_depression
+  
+  - story: depression_sign
+    steps:
+      - intent: depression_sign
+      - action: utter_depression_sign
+  
+  - story: handling_depression
+    steps:
+      - intent: handling_depression
+      - action: utter_handling_depression
+
+  - story: cause_depression
+    steps:
+      - intent: cause_depression
+      - action: utter_cause_depression
+
+  - story: depression_medication
+    steps:
+      - intent: depression_medication
+      - action: utter_depression_medication
+
+  - story: stress
+    steps:
+      - intent: stress
+      - action: utter_stress
+
+  - story: cause_stress
+    steps:
+      - intent: cause_stress
+      - action: utter_cause_stress
+  
+  - story: stress_medication
+    steps:
+      - intent: stress_medication
+      - action: utter_stress_medication
+  
+  - story: stress_sign
+    steps:
+      - intent: stress_sign
+      - action: utter_stress_sign
+
+  - story: emotional_health
+    steps:
+      - intent: emotional_health
+      - action: utter_emotional_health
+
+  - story: maintain_emotional_health
+    steps:
+      - intent: maintain_emotional_health
+      - action: utter_maintain_emotional_health
+  
+  - story: handling_emotional
+    steps:
+      - intent: handling_emotional
+      - action: utter_handling_emotional
+  
+  - story: anxiety
+    steps:
+      - intent: anxiety
+      - action: utter_anxiety
+
+  - story: cause_anxiety
+    steps:
+      - intent: cause_anxiety
+      - action: utter_cause_anxiety
+
+  - story: sign_anxiety
+    steps:
+      - intent: sign_anxiety
+      - action: utter_sign_anxiety
+
+  - story: handling_anxiety
+    steps:
+      - intent: handling_anxiety
+      - action: utter_handling_anxiety
+
+  - story: eating_disorders_for_mental_health
+    steps:
+      - intent: eating_disorders_for_mental_health
+      - action: utter_eating_disorders_for_mental_health
+
+  - story: eating_disorder_medication
+    steps:
+      - intent: eating_disorder_medication
+      - action: utter_eating_disorder_medication
+  
+  - story: bipolar
+    steps:
+      - intent: bipolar
+      - action: utter_bipolar
+  
+  - story: cause_bipolar
+    steps:
+      - intent: cause_bipolar
+      - action: utter_cause_bipolar
+  
+  - story: handling_bipolar
+    steps:
+      - intent: handling_bipolar
+      - action: utter_handling_bipolar
+
+  - story: skizofrenia
+    steps:
+      - intent: skizofrenia
+      - action: utter_skizofrenia
+  
+  - story: cause_skizofrenia
+    steps:
+      - intent: cause_skizofrenia
+      - action: utter_cause_skizofrenia
+
+  - story: handling_skizofrenia
+    steps:
+      - intent: handling_skizofrenia
+      - action: utter_handling_skizofrenia
+
+  - story: eating_disorders
+    steps:
+      - intent: eating_disorders
+      - action: utter_eating_disorders
+
+  - story: handling_eating_disorders
+    steps:
+      - intent: handling_eating_disorders
+      - action: utter_handling_eating_disorders
+  
+  - story: sleep_disorders
+    steps:
+      - intent: sleep_disorders
+      - action: utter_sleep_disorders
+
+  - story: cause_sleep_disorders
+    steps:
+      - intent: cause_sleep_disorders
+      - action: utter_cause_sleep_disorders
+
+  - story: impact_sleep_disorders
+    steps:
+      - intent: impact_sleep_disorders
+      - action: utter_impact_sleep_disorders
+
+  - story: handling_sleep_disorders
+    steps:
+      - intent: handling_sleep_disorders
+      - action: utter_handling_sleep_disorders
+
+  - story: sleep_disorders_medication
+    steps:
+      - intent: sleep_disorders_medication
+      - action: utter_sleep_disorders_medication
+
+  - story: trauma
+    steps:
+      - intent: trauma
+      - action: utter_trauma
+
+  - story: handling_trauma
+    steps:
+      - intent: handling_trauma
+      - action: utter_handling_trauma
+
+  - story: psychology
+    steps:
+      - intent: psychology
+      - action: utter_psychology
+
+  - story: psychology_therapy
+    steps:
+      - intent: psychology_therapy
+      - action: utter_psychology_therapy
+
+  - story: loneliness
+    steps:
+      - intent: loneliness
+      - action: utter_loneliness
+
+  - story: handling_loneliness
+    steps:
+      - intent: handling_loneliness
+      - action: utter_handling_loneliness
+
+  - story: suicide
+    steps:
+      - intent: suicide
+      - action: utter_suicide
+
+  - story: cause_suicide
+    steps:
+      - intent: cause_suicide
+      - action: utter_cause_suicide
+
+  - story: suicide_prevention
+    steps:
+      - intent: suicide_prevention
+      - action: utter_suicide_prevention
+
+  - story: ocd
+    steps:
+      - intent: ocd
+      - action: utter_ocd
+
+  - story: ocd_sign
+    steps:
+      - intent: ocd_sign
+      - action: utter_ocd_sign
+
+  - story: handling_ocd
+    steps:
+      - intent: handling_ocd
+      - action: utter_handling_ocd
+
+  - story: stigma_and_guilt
+    steps:
+      - intent: stigma_and_guilt
+      - action: utter_stigma_and_guilt
+
+  - story: to_professional
+    steps:
+      - intent: to_professional
+      - action: utter_to_professional
+  
+  - story: mental_disorder_support
+    steps:
+      - intent: mental_disorder_support
+      - action: utter_mental_disorder_support
+  
+  - story: friend_support
+    steps:
+      - intent: friend_support
+      - action: utter_friend_support
+  
+  - story: community_role
+    steps:
+      - intent: community_role
+      - action: utter_community_role
+ 
+  - story: sports
+    steps:
+      - intent: sports
+      - action: utter_sports
+  
+  - story: sports_benefits
+    steps: 
+      - intent: sports_benefits
+      - action: utter_sports_benefits
+  
+  - story: confidence_building_tips
+    steps:
+      - intent: confidence_building_tips
+      - action: utter_confidence_building_tips
+  
+  - story: end
+    steps:
+      - intent: end
+      - action: utter_end

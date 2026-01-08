@@ -1,0 +1,565 @@
+version: '3.1'
+
+nlu:
+- intent: init
+  examples: |
+    - hallo
+    - hai
+    - halo
+    - hei
+    - hi
+    - hy
+    - hay
+    - hayy
+    - pagi
+    - morning
+    - siang
+    - afternoon
+    - sore
+    - malam
+    - night
+    - bro
+    - sis
+    - chatbot
+    - selamat pagi
+    - selamat siang
+    - selamat sore
+    - selamat malam
+    - /start
+
+- intent: end
+  examples: |
+    - bay
+    - dada
+    - da
+    - sea
+    - see you
+    - see you later
+    - see you soon
+    - bye
+    - bye bye
+    - good bye
+    - goodbye
+    - terimakasih atas jawabanya
+    - selamat tinggal
+    - sampai jumpa
+    - /stop
+
+- intent: mental_health
+  examples: |
+    - kesehatan mental
+    - kesehatan mental itu apa?
+    - kesehatan mental adalah
+    - kesehatan mental
+    - apa itu kesehatan mental?
+    - apa itu kesehatan mental
+    - apa yang dimaksud dengan kesehatan mental?
+    - pengertian kesehatan mental
+
+- intent: overcoming_mental_health
+  examples: |
+    - Cara mengatasi kesehatan mental
+    - Bagaimana mengelola kesehatan mental
+    - Mengatasi kesehatan mental
+    - Tips untuk menjaga kesehatan mental
+    - Cara mengurangi perasaan kesepian
+    - Pentingnya perawatan diri
+    - Teknik untuk mengatasi kesehatan mental
+
+- intent: frustrating
+  examples: |
+    - frustasi
+    - Apa itu frustasi
+    - frustasi itu apa?
+    - frustasi adalah
+    - pengertian frustasi
+    - apa yang dimaksud dengan frustasi?
+
+- intent: overcoming_frustrating
+  examples: |
+    - Bagaimana mengatasi frustasi?
+    - Cara meredakan perasaan frustasi
+    - Apa yang bisa saya lakukan ketika saya frustasi?
+    - Mengelola frustasi
+
+- intent: sadness
+  examples: |
+    - apa itu sedih?
+    - sedih itu apa?
+    - perasaan sedih
+    - sedih
+
+- intent: overcoming_sadness
+  examples: |
+    - Cara mengatasi perasaan sedih
+    - Bagaimana menghadapi perasaan sedih?
+    - Apa yang harus saya lakukan ketika saya merasa sangat sedih?
+    - Tips untuk mengatasi perasaan sedih
+    - trik cara mengatasi perasaan sedih
+    - ciri perasaan sedih yang mendalam
+    - cara mengatasi perasaan sedih yang mendalam
+
+- intent: depression
+  examples: |
+    - depresi
+    - depresi itu apa?
+    - apa itu depresi?
+    - apakah depresi itu?
+    - depresi adalah
+    - pengertian depresi
+    - apa yang dimaksud dengan depresi?
+    - apa yang dimaksud dengan depresi
+    - Apa itu depresi?
+    - artinya depresi
+    - depresi artinya apa?
+    - apakah itu depresi?
+
+- intent: depression_sign
+  examples: |
+    - tanda tanda depresi
+    - tanda depresi
+    - tanda depresi apa?
+    - tanda-tanda depresi apa saja?
+    - tanda-tanda depresi itu apa?
+    - tanda terkena depresi depresi
+
+- intent: handling_depression
+  examples: |
+    - menangani depresi
+    - cara menangani depresi
+    - cara mengatasi depresi
+    - mengatasi depresi
+    - meredakan depresi
+    - Bagaimana cara mengatasi depresi?
+    - Cara meredakan depresi
+
+- intent: cause_depression
+  examples: |
+    - penyebab depresi
+    - penyebab depresi apa?
+    - penyebab depresi apa saja?
+    - Apa yang menyebabkan depresi?
+    - Apa saja faktor penyebab depresi?
+    - Faktor-faktor pemicu depresi
+    - Apa yang dapat memicu depresi?
+
+- intent: depression_medication
+  examples: |
+    - obat depresi
+    - jenis obat untuk depresi
+    - bagaimana pengobatan depresi?
+    - obat antidepressant
+    - terapi obat depresi
+
+- intent: stress
+  examples: |
+    - stres
+    - stres apa itu?
+    - apakah stres itu?
+    - stres itu apa?
+    - apakah stress itu?
+    - apakah stres?
+    - apakah stress?
+    - stres adalah
+
+- intent: cause_stress
+  examples: |
+    - faktor stres
+    - faktor faktor stres
+    - penyebab stres
+    - penyebab stres apa?
+    - penyebab stres itu apa saja?
+    - jelaskan penyebab stres
+
+- intent: stress_medication
+  examples: |
+    - cara mengobati stres
+    - obat stres
+    - terapi stres
+    - bagaimana psikolog mengobati stres?
+    - pengobatan stres menurut psikolog
+    - cara konsultasi ke psikolog?
+
+- intent: stress_sign
+  examples: |
+    - tanda stres pada umumnya
+    - Apa tanda-tanda umum stres?
+    - tanda umum stres
+    - tanda tanda stres
+    - tanda-tanda stres
+    - stres tandanya apa?
+    - tanda orang terkena stres
+    - orang terkena stres
+
+- intent: emotional_health
+  examples: |
+    - keseharan emosionall itu apa?
+    - kesehatan emosional adalah
+    - Apa itu kesehatan emosional?
+    - Apa yang dimaksud kesehatan emosional?
+    - Kesehatan emosional
+
+- intent: maintain_emotional_health
+  examples: |
+    - cara menjaga kesehatan emosional
+    - cara menjaga kesehatan emosional?
+    - cara mengelola kesehatan mental
+    - mengelola kesehatan mental
+
+- intent: handling_emotional
+  examples: |
+    - Bagaimana cara mengatasi emosi yang kuat?
+    - Strategi untuk mengatasi emosi negatif
+    - Cara mengendalikan emosi
+    - Mengatasi stres emosional
+
+- intent: anxiety
+  examples: |
+    - kecemasan adalah
+    - apa itu kecemasan?
+    - kecemasan itu apa
+    - kecemasan
+    - yang dimaksud kecemasan itu apa?
+    - cemas
+
+- intent: cause_anxiety
+  examples: |
+    - sebab kecemasan
+    - apa sebab kecemasan?
+    - penyebab kecemasan
+    - penyebab kecemasan apa?
+    - penyebab kecemasan itu apa?
+    - apa penyebab kecemasan?
+    - apa yang menyebabkan kecemasan?
+    - disebabkan oleh apa kecemasan
+
+- intent: sign_anxiety
+  examples: |
+    - tanda cemas
+    - tanda tanda kecemasan
+    - tanda kecemasan
+    - tanda kecemasan apa saja?
+    - tanda-tanda kecemasan
+    - tanda-tanda kecemasan itu apa?
+
+- intent: handling_anxiety
+  examples: |
+    - mengatasi kecemasan
+    - cara mengatasi kecemasan
+    - cara mengatasi kecemasan yang berlebihan
+    - bagaimana mengatasi kecemasan?
+    - mengatasi rasa cemas
+    - mengatasi rasa cemas yang berlebihan
+    - cara meredakan kecemasan
+    - strategi menghadapi kecemasan
+    - mengurangi gejala kecemasan
+
+- intent: eating_disorders_for_mental_health
+  examples: |
+    - gangguan makan
+    - makan
+    - gangguan makan itu apa?
+    - gangguan makan apa itu?
+    - Apa itu gangguan makan?
+    - Pengertian gangguan makan
+    - Gangguan makan adalah
+    - Definisi gangguan makan
+
+- intent: eating_disorder_medication
+  examples: |
+    - obat gangguan makan
+    - obat untuk gangguan makan
+    - pengobatan gangguan makan
+    - cara mengobati gangguan makan
+    - terapi obat gangguan makan
+
+- intent: bipolar
+  examples: |
+    - bipolar
+    - bipolar itu apa?
+    - Apa itu bipolar?
+    - Apa itu gangguan bipolar?
+    - Apa yang dimaksud dengan gangguan bipolar?
+    - Apa yang dimaksud dengan bipolar?
+
+- intent: cause_bipolar
+  examples: |
+    - penyebab gangguan bipolar
+    - penyebab bipolar
+    - penyebab bipolar apa?
+    - penyebab terjadinya gangguan bipolar
+    - Apa yang menyebabkan gangguan bipolar?
+    - Apa yang memicu gangguan bipolar?
+    - Penyebab gangguan mood bipolar
+
+- intent: handling_bipolar
+  examples: |
+    - cara mengatasi gangguan bipolar
+    - cara mengatasi bipolar
+    - cara mengelola gangguan bipolar
+    - Bagaimana cara mengatasi gangguan bipolar?
+    - Cara mengelola bipolar
+    - Apa langkah-langkah untuk mengatasi gangguan bipolar?
+
+- intent: skizofrenia
+  examples: |
+    - Apa itu skizofrenia?
+    - Apa yang dimaksud dengan skizofrenia?
+    - Apa itu gangguan skizofrenia?
+    - skizofrenia adalah
+    - Skizofrenia
+
+- intent: cause_skizofrenia
+  examples: |
+    - penyebab skizofrenia
+    - penyebab skizofrenia apa saja?
+    - sebab skizofrenia
+    - Apa yang menjadi penyebab skizofrenia?
+    - Faktor penyebab skizofrenia
+    - pemicu skizofrenia
+    - Penyebab gangguan skizofrenia
+
+- intent: handling_skizofrenia
+  examples: |
+    - Bagaimana cara mengatasi skizofrenia?
+    - Cara menangani skizofrenia
+    - cara mengatasi skizofrenia
+    - Cara mengelola skizofrenia
+    - Bagaimana cara mengelola skizofrenia?
+    - Apa yang bisa saya lakukan jika saya mengalami skizofrenia?
+    - Apa langkah-langkah untuk mengatasi skizofrenia?
+    - Strategi mengatasi skizofrenia
+
+- intent: eating_disorders
+  examples: |
+    - gangguan makan
+    - gangguan makan adalah
+    - ciri gangguan makanan
+    - Tanda-tanda seseorang terkena gangguan makan
+    - Tanda-tanda gangguan makan pada seseorang
+
+- intent: handling_eating_disorders
+  examples: |
+    - Cara mengatasi gangguan makan
+    - Strategi mengatasi gangguan makan
+    - Bagaimana merawat gangguan makan
+    - Tindakan untuk pemulihan dari gangguan makan
+    - Langkah-langkah mengatasi gangguan makan
+
+- intent: sleep_disorders
+  examples: |
+    - Apa penyebab gangguan tidur?
+    - Penyebab gangguan tidur
+    - Penyebab gangguan tidur apa saja?
+    - Faktor penyebab gangguan tidur
+    - Apa yang memicu gangguan tidur?
+    - pemicu gangguan tidur
+
+- intent: cause_sleep_disorders
+  examples: |
+    - Apa penyebab gangguan tidur?
+    - Penyebab gangguan tidur
+    - Penyebab gangguan tidur apa saja?
+    - Faktor penyebab gangguan tidur
+    - Apa yang memicu gangguan tidur?
+    - pemicu gangguan tidur
+    
+- intent: impact_sleep_disorders
+  examples: |
+    - dampak gangguan tidur
+    - dampak buruk gangguan tidur
+    - dampak negatif gangguan tidur
+    - Apa dampak dari gangguan tidur?
+    - Efek negatif gangguan tidur
+    - Mengapa penting untuk mengatasi gangguan tidur?
+
+- intent: handling_sleep_disorders
+  examples: |
+    - cara mengatasi gangguan tidur
+    - cara mengatasi gangguan tidur apa?
+    - cara mengatasi gangguan tidur apa saja?
+    - cara mengatasi gangguan tidur yang baik
+    - Bagaimana cara mengatasi gangguan tidur?
+    - Tips untuk tidur yang lebih baik
+
+- intent: sleep_disorders_medication
+  examples: |
+    - obat tidur
+    - pengobatan gangguan tidur
+    - cara mengatasi gangguan tidur
+    - terapi obat tidur
+
+- intent: trauma
+  examples: |
+    - trauma adalah
+    - trauma
+    - trauma apa itu?
+    - Apa yang dimaksud dengan trauma?
+    - Apa itu trauma?
+    - Apa yang dimaksud dengan trauma mental?
+    - Dampak trauma pada kesehatan mental
+
+- intent: handling_trauma
+  examples: |
+    - Bagaimana cara mengatasi pengalaman trauma?
+    - Cara mengatasi trauma
+    - Tips untuk mengatasi trauma
+    - Strategi untuk mengatasi trauma
+    - Mengatasi trauma psikologis
+    - Menghadapi trauma
+
+- intent: psychology
+  examples: |
+    - Apa itu psikologi?
+    - Definisi psikologi
+    - Pengertian psikologi
+    - Bidang studi psikologi
+
+- intent: psychology_therapy
+  examples: |
+    - jenis terapi psikologi dalam kesehatan mental
+    - jenis terapi psikologi
+    - terapi psikologi untuk mental health
+    - terapi psikologi membantu kesehatan mental
+
+- intent: loneliness
+  examples: |
+    - kesepian
+    - kesepian adalah
+    - Apa itu kesepian?
+    - Definisi kesepian
+    - Arti kesepian
+    - Kesepian itu apa?
+    - Apa pengertian kesepian?
+
+- intent: handling_loneliness
+  examples: |
+    - mengatasi kesepian
+    - cara mengatasi kesepian
+    - bagaimana mengatasi kesepian
+    - mengatasi kesepian
+    - mengatasi perasaan kesepian
+    - menghilangkan kesepian
+
+- intent: suicide
+  examples: |
+    - bunuh diri
+    - bunuh diri itu apa?
+    - apa itu bunuh diri?
+    - definisi bunuh diri
+    - bunuh diri dalam kesehatan mental
+    - maksud bunuh diri
+    - saya mau bunuh diri
+
+- intent: cause_suicide
+  examples: |
+    - penyebab bunuh diri
+    - faktor penyebab bunuh diri
+    - mengapa seseorang bunuh diri?
+    - apa yang memicu bunuh diri?
+
+- intent: suicide_prevention
+  examples: |
+    - bagaimana mencegah bunuh diri?
+    - langkah-langkah pencegahan bunuh diri
+    - tindakan pencegahan bunuh diri
+    - cara membantu seseorang yang berisiko bunuh diri
+
+- intent: ocd
+  examples: |
+    - Apa itu OCD?
+    - Definisi OCD
+    - Gangguan obsesif-kompulsif
+
+- intent: ocd_sign
+  examples: |
+    - Apa saja tanda-tanda OCD?
+    - Ciri-ciri gangguan obsesif-kompulsif
+    - Tanda-tanda orang dengan OCD
+    - Bagaimana mengenali OCD
+
+- intent: handling_ocd
+  examples: |
+    - Cara mengatasi OCD
+    - Bagaimana mengobati gangguan obsesif-kompulsif?
+    - Terapi untuk OCD
+    - Pengobatan OCD
+
+- intent: stigma_and_guilt
+  examples: |
+    - stigma dan perasaan bersalah
+    - stigma dan perasaan bersalah tentang kesehatan mental
+    - stigma dan perasaan bersalah terkait kesehatan mental
+    - Cara mengatasi stigma kesehatan mental
+    - Cara mengatasi perasaan bersalah terkait kesehatan mental
+    - Mengatasi stereotip gangguan kesehatan mental
+    - Cara menghilangkan perasaan bersalah tentang kesehatan mental
+
+- intent: to_professional
+  examples: |
+    - Cara mencari terapis kesehatan mental
+    - Mencari bantuan kesehatan mental
+    - Bagaimana menemukan klinik kesehatan mental?
+    - Referensi ke profesional kesehatan mental
+
+- intent: mental_disorder_support
+  examples: |
+    - dukungan individu
+    - dukungan individu untuk gangguan mental
+    - dukungan individu untuk kesehatan mental
+    - dukungan individu untuk orang dengan gangguan mental
+    - dukungan individu untuk orang dengan kesehatan mental
+    - dukungan individu untuk orang dengan gangguan kesehatan mental
+
+- intent: friend_support
+  examples: |
+    - dukungan teman
+    - dukungan teman untuk gangguan mental
+    - dukungan teman untuk kesehatan mental
+    - dukungan teman untuk orang dengan gangguan mental
+    - dukungan teman untuk orang dengan kesehatan mental
+    - dukungan teman untuk orang dengan gangguan kesehatan mental
+
+- intent: community_role
+  examples: |
+    - peran masyarakat
+    - peran masyarakat dalam kesehatan mental
+    - peran masyarakat dalam gangguan mental
+    - peran masyarakat dalam kesehatan mental saya
+    - peran masyarakat dalam gangguan mental saya
+    - peran masyarakat dalam kesehatan mental orang lain
+    - peran masyarakat dalam gangguan mental orang lain
+
+- intent: sports
+  examples: |
+    - olahraga
+    - olahraga dan kesehatan mental
+    - olahraga dan kesehatan mental saya
+    - olahraga dan kesehatan mental orang lain
+
+- intent: sports_benefits
+  examples: |
+    - manfaat olahraga bagi kesehatan mental
+    - manfaat olahraga
+    - olahraga manfaatnya apa?
+    - manfaat olahraga untuk kesehatan mental
+
+- intent: confidence_building_tips
+  examples: |
+    - cara membangun kepercayaan diri
+    - tips membangun kepercayaan diri
+    - cara membangun kepercayaan diri saya
+    - cara membangun kepercayaan diri orang lain
+    - bagaimana cara membangun kepercayaan diri?
+    - cara psikolog merekomendasikan membangun kepercayaan diri
+    - strategi kepercayaan diri dari psikolog
+    - pandangan psikolog tentang kepercayaan diri
+
+- intent: ask_psychologist_contact
+  examples: |
+    - bagaimana cara menghubungi psikolog?
+    - saya mau konsultasi dengan psikolog
+    - ada nomor psikolog?
+    - saya butuh bantuan psikolog
+    - bisa hubungi psikolog di mana?
+
